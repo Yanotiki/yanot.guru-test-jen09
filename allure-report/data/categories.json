@@ -1,0 +1,30 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "UnsupportedCommandException: unknown command: unknown command: session/a7a6a057f103ec67fc348bee19bd987b/se/file\r\nScreenshot: file:/C:/Users/yanaf/IdeaProjects/yanot.guru-test-jen09/build/reports/tests/1643668330758.0.png\r\nPage source: file:/C:/Users/yanaf/IdeaProjects/yanot.guru-test-jen09/build/reports/tests/1643668330758.0.html\r\nTimeout: 4 s.\r\nCaused by: UnsupportedCommandException: unknown command: unknown command: session/a7a6a057f103ec67fc348bee19bd987b/se/file",
+      "children" : [ {
+        "name" : "fillFormTest()",
+        "uid" : "4ca5b53ce45faddf",
+        "parentUid" : "c3f89a1f6f92404b484e20568b8ca111",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643668290898,
+          "stop" : 1643668336155,
+          "duration" : 45257
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c3f89a1f6f92404b484e20568b8ca111"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

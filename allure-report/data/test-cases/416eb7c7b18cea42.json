@@ -1,0 +1,1080 @@
+{
+  "uid" : "416eb7c7b18cea42",
+  "name" : "automationPracticeTest()",
+  "fullName" : "yanot.guru.tests.AutomationPracticeTests.automationPracticeTest",
+  "historyId" : "bf06dc3c1db8a880f982467bbd3ea132",
+  "time" : {
+    "start" : 1643669582407,
+    "stop" : 1643669617694,
+    "duration" : 35287
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1643669581763,
+      "stop" : 1643669581795,
+      "duration" : 32
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "$(\"open\") https://demoqa.com/automation-practice-form",
+      "time" : {
+        "start" : 1643669582419,
+        "stop" : 1643669593181,
+        "duration" : 10762
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\".practice-form-wrapper\") should have(text \"Student Registration Form\")",
+      "time" : {
+        "start" : 1643669593188,
+        "stop" : 1643669593547,
+        "duration" : 359
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Set field First Name = \"Eloy\"",
+      "time" : {
+        "start" : 1643669593572,
+        "stop" : 1643669594490,
+        "duration" : 918
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"#firstName\") set value(Eloy)",
+        "time" : {
+          "start" : 1643669593572,
+          "stop" : 1643669594489,
+          "duration" : 917
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "value",
+        "value" : "Eloy"
+      } ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Set field Last Name = \"Kshlerin\"",
+      "time" : {
+        "start" : 1643669594491,
+        "stop" : 1643669595436,
+        "duration" : 945
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"#lastName\") set value(Kshlerin)",
+        "time" : {
+          "start" : 1643669594491,
+          "stop" : 1643669595436,
+          "duration" : 945
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "value",
+        "value" : "Kshlerin"
+      } ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Set field Email = \"rico.reilly@gmail.com\"",
+      "time" : {
+        "start" : 1643669595437,
+        "stop" : 1643669596368,
+        "duration" : 931
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"#userEmail\") set value(rico.reilly@gmail.com)",
+        "time" : {
+          "start" : 1643669595437,
+          "stop" : 1643669596368,
+          "duration" : 931
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "value",
+        "value" : "rico.reilly@gmail.com"
+      } ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Select radio button Gender = \"Female\"",
+      "time" : {
+        "start" : 1643669596369,
+        "stop" : 1643669597178,
+        "duration" : 809
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"by text: Female\") click()",
+        "time" : {
+          "start" : 1643669596375,
+          "stop" : 1643669597178,
+          "duration" : 803
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "value",
+        "value" : "Female"
+      } ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Set field Mobile phone = \"0467819241\"",
+      "time" : {
+        "start" : 1643669597179,
+        "stop" : 1643669598126,
+        "duration" : 947
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"#userNumber\") set value(0467819241)",
+        "time" : {
+          "start" : 1643669597179,
+          "stop" : 1643669598126,
+          "duration" : 947
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "value",
+        "value" : "0467819241"
+      } ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Select Date of Birth in calendar = \"1952\", \"January\", \"29\"",
+      "time" : {
+        "start" : 1643669598127,
+        "stop" : 1643669600763,
+        "duration" : 2636
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"#dateOfBirthInput\") click()",
+        "time" : {
+          "start" : 1643669598127,
+          "stop" : 1643669598970,
+          "duration" : 843
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "$(\".react-datepicker__month-select\") select option(January)",
+        "time" : {
+          "start" : 1643669598971,
+          "stop" : 1643669599412,
+          "duration" : 441
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "$(\".react-datepicker__year-select\") select option(1952)",
+        "time" : {
+          "start" : 1643669599413,
+          "stop" : 1643669599986,
+          "duration" : 573
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "$(\".react-datepicker__day--029:not(.react-datepicker__day--outside-month)\") click()",
+        "time" : {
+          "start" : 1643669599990,
+          "stop" : 1643669600762,
+          "duration" : 772
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "year",
+        "value" : "1952"
+      }, {
+        "name" : "month",
+        "value" : "January"
+      }, {
+        "name" : "day",
+        "value" : "29"
+      } ],
+      "stepsCount" : 4,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Select Subject in dropdown = \"Chemistry\"",
+      "time" : {
+        "start" : 1643669600763,
+        "stop" : 1643669602465,
+        "duration" : 1702
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"#subjectsInput\") set value(Chemistry)",
+        "time" : {
+          "start" : 1643669600763,
+          "stop" : 1643669601682,
+          "duration" : 919
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "$(\"#subjectsInput\") press enter()",
+        "time" : {
+          "start" : 1643669601682,
+          "stop" : 1643669602465,
+          "duration" : 783
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "subject",
+        "value" : "Chemistry"
+      } ],
+      "stepsCount" : 2,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Select Subject in dropdown = \"Math\"",
+      "time" : {
+        "start" : 1643669602466,
+        "stop" : 1643669604116,
+        "duration" : 1650
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"#subjectsInput\") set value(Math)",
+        "time" : {
+          "start" : 1643669602466,
+          "stop" : 1643669603343,
+          "duration" : 877
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "$(\"#subjectsInput\") press enter()",
+        "time" : {
+          "start" : 1643669603344,
+          "stop" : 1643669604116,
+          "duration" : 772
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "subject",
+        "value" : "Math"
+      } ],
+      "stepsCount" : 2,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Select Hobby in checkbox = \"Sports\"",
+      "time" : {
+        "start" : 1643669604116,
+        "stop" : 1643669604905,
+        "duration" : 789
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"By.xpath: //label[contains(text(),'Sports')]\") click()",
+        "time" : {
+          "start" : 1643669604116,
+          "stop" : 1643669604905,
+          "duration" : 789
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "hobby",
+        "value" : "Sports"
+      } ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Select Hobby in checkbox = \"Music\"",
+      "time" : {
+        "start" : 1643669604905,
+        "stop" : 1643669605685,
+        "duration" : 780
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"By.xpath: //label[contains(text(),'Music')]\") click()",
+        "time" : {
+          "start" : 1643669604906,
+          "stop" : 1643669605685,
+          "duration" : 779
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "hobby",
+        "value" : "Music"
+      } ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Set field Current Address = \"16663 Angelo Way, Lake Shellie, MO 41474-4130\"",
+      "time" : {
+        "start" : 1643669605685,
+        "stop" : 1643669606595,
+        "duration" : 910
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"#currentAddress\") set value(16663 Angelo Way, Lake Shellie, MO 41474-4130)",
+        "time" : {
+          "start" : 1643669605685,
+          "stop" : 1643669606595,
+          "duration" : 910
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "value",
+        "value" : "16663 Angelo Way, Lake Shellie, MO 41474-4130"
+      } ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Select State in dropdown = \"Uttar Pradesh\"",
+      "time" : {
+        "start" : 1643669606595,
+        "stop" : 1643669608465,
+        "duration" : 1870
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"#state\") scroll to()",
+        "time" : {
+          "start" : 1643669606595,
+          "stop" : 1643669606879,
+          "duration" : 284
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "$(\"#state\") click()",
+        "time" : {
+          "start" : 1643669606879,
+          "stop" : 1643669607663,
+          "duration" : 784
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "$(\"By.xpath: //div[text()='Uttar Pradesh']\") click()",
+        "time" : {
+          "start" : 1643669607663,
+          "stop" : 1643669608465,
+          "duration" : 802
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "value",
+        "value" : "Uttar Pradesh"
+      } ],
+      "stepsCount" : 3,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Select City in dropdown = \"Agra\"",
+      "time" : {
+        "start" : 1643669608466,
+        "stop" : 1643669610292,
+        "duration" : 1826
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"#city\") scroll to()",
+        "time" : {
+          "start" : 1643669608466,
+          "stop" : 1643669608728,
+          "duration" : 262
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "$(\"#city\") click()",
+        "time" : {
+          "start" : 1643669608728,
+          "stop" : 1643669609505,
+          "duration" : 777
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "$(\"By.xpath: //div[text()='Agra']\") click()",
+        "time" : {
+          "start" : 1643669609506,
+          "stop" : 1643669610292,
+          "duration" : 786
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "value",
+        "value" : "Agra"
+      } ],
+      "stepsCount" : 3,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Click \"Submit\" button",
+      "time" : {
+        "start" : 1643669610293,
+        "stop" : 1643669612088,
+        "duration" : 1795
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"#submit\") click()",
+        "time" : {
+          "start" : 1643669610293,
+          "stop" : 1643669611094,
+          "duration" : 801
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "$(\".modal-header\") should be(visible)",
+        "time" : {
+          "start" : 1643669611094,
+          "stop" : 1643669611768,
+          "duration" : 674
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "$(\".modal-header\") should have(text \"Thanks for submitting the form\")",
+        "time" : {
+          "start" : 1643669611768,
+          "stop" : 1643669612088,
+          "duration" : 320
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Check that field \"Student Name\" has value \"Eloy Kshlerin\"",
+      "time" : {
+        "start" : 1643669612088,
+        "stop" : 1643669612559,
+        "duration" : 471
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\".table-responsive/by text: Student Name/By.xpath: ..\") should have(text \"Eloy Kshlerin\")",
+        "time" : {
+          "start" : 1643669612088,
+          "stop" : 1643669612559,
+          "duration" : 471
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "key",
+        "value" : "Student Name"
+      }, {
+        "name" : "value",
+        "value" : "Eloy Kshlerin"
+      } ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Check that field \"Student Email\" has value \"rico.reilly@gmail.com\"",
+      "time" : {
+        "start" : 1643669612560,
+        "stop" : 1643669613274,
+        "duration" : 714
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\".table-responsive/by text: Student Email/By.xpath: ..\") should have(text \"rico.reilly@gmail.com\")",
+        "time" : {
+          "start" : 1643669612560,
+          "stop" : 1643669613274,
+          "duration" : 714
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "key",
+        "value" : "Student Email"
+      }, {
+        "name" : "value",
+        "value" : "rico.reilly@gmail.com"
+      } ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Check that field \"Gender\" has value \"Female\"",
+      "time" : {
+        "start" : 1643669613275,
+        "stop" : 1643669613739,
+        "duration" : 464
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\".table-responsive/by text: Gender/By.xpath: ..\") should have(text \"Female\")",
+        "time" : {
+          "start" : 1643669613275,
+          "stop" : 1643669613739,
+          "duration" : 464
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "key",
+        "value" : "Gender"
+      }, {
+        "name" : "value",
+        "value" : "Female"
+      } ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Check that field \"Mobile\" has value \"0467819241\"",
+      "time" : {
+        "start" : 1643669613739,
+        "stop" : 1643669614205,
+        "duration" : 466
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\".table-responsive/by text: Mobile/By.xpath: ..\") should have(text \"0467819241\")",
+        "time" : {
+          "start" : 1643669613739,
+          "stop" : 1643669614205,
+          "duration" : 466
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "key",
+        "value" : "Mobile"
+      }, {
+        "name" : "value",
+        "value" : "0467819241"
+      } ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Check that field \"Date of Birth\" has value \"29 January,1952\"",
+      "time" : {
+        "start" : 1643669614205,
+        "stop" : 1643669614679,
+        "duration" : 474
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\".table-responsive/by text: Date of Birth/By.xpath: ..\") should have(text \"29 January,1952\")",
+        "time" : {
+          "start" : 1643669614206,
+          "stop" : 1643669614679,
+          "duration" : 473
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "key",
+        "value" : "Date of Birth"
+      }, {
+        "name" : "value",
+        "value" : "29 January,1952"
+      } ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Check that field \"Subjects\" has value \"Chemistry, Math\"",
+      "time" : {
+        "start" : 1643669614679,
+        "stop" : 1643669615158,
+        "duration" : 479
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\".table-responsive/by text: Subjects/By.xpath: ..\") should have(text \"Chemistry, Math\")",
+        "time" : {
+          "start" : 1643669614679,
+          "stop" : 1643669615158,
+          "duration" : 479
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "key",
+        "value" : "Subjects"
+      }, {
+        "name" : "value",
+        "value" : "Chemistry, Math"
+      } ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Check that field \"Hobbies\" has value \"Sports, Music\"",
+      "time" : {
+        "start" : 1643669615158,
+        "stop" : 1643669615634,
+        "duration" : 476
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\".table-responsive/by text: Hobbies/By.xpath: ..\") should have(text \"Sports, Music\")",
+        "time" : {
+          "start" : 1643669615158,
+          "stop" : 1643669615634,
+          "duration" : 476
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "key",
+        "value" : "Hobbies"
+      }, {
+        "name" : "value",
+        "value" : "Sports, Music"
+      } ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Check that field \"State and City\" has value \"Uttar Pradesh Agra\"",
+      "time" : {
+        "start" : 1643669615635,
+        "stop" : 1643669616106,
+        "duration" : 471
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\".table-responsive/by text: State and City/By.xpath: ..\") should have(text \"Uttar Pradesh Agra\")",
+        "time" : {
+          "start" : 1643669615635,
+          "stop" : 1643669616106,
+          "duration" : 471
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "key",
+        "value" : "State and City"
+      }, {
+        "name" : "value",
+        "value" : "Uttar Pradesh Agra"
+      } ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 57,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "addAttachments",
+    "time" : {
+      "start" : 1643669616110,
+      "stop" : 1643669617670,
+      "duration" : 1560
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "76649d2dad7ef6ad",
+      "name" : "Last screenshot",
+      "source" : "76649d2dad7ef6ad.png",
+      "type" : "image/png",
+      "size" : 259364
+    }, {
+      "uid" : "56f0f6d09b4d2bce",
+      "name" : "Page source",
+      "source" : "56f0f6d09b4d2bce.html",
+      "type" : "text/plain",
+      "size" : 52559
+    }, {
+      "uid" : "420575aaf5f22a71",
+      "name" : "Browser console logs",
+      "source" : "420575aaf5f22a71.bin",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "b75a1a6f876ccd53",
+      "name" : "Video",
+      "source" : "b75a1a6f876ccd53.html",
+      "type" : "text/html",
+      "size" : 193
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "StudentRegistrationForm"
+  }, {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:yanot.guru.tests.AutomationPracticeTests]/[method:automationPracticeTest()]"
+  }, {
+    "name" : "host",
+    "value" : "YANOTIK"
+  }, {
+    "name" : "thread",
+    "value" : "8620@YANOTIK.Test worker(15)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "yanot.guru.tests.AutomationPracticeTests"
+  }, {
+    "name" : "testClass",
+    "value" : "yanot.guru.tests.AutomationPracticeTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "automationPracticeTest"
+  }, {
+    "name" : "suite",
+    "value" : "yanot.guru.tests.AutomationPracticeTests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "StudentRegistrationForm" ]
+  },
+  "source" : "416eb7c7b18cea42.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,60 @@
+{
+  "9499a95270aade24f95f9b7eb9fad9c" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4ca5b53ce45faddf",
+      "status" : "failed",
+      "statusDetails" : "UnsupportedCommandException: unknown command: unknown command: session/a7a6a057f103ec67fc348bee19bd987b/se/file\r\nScreenshot: file:/C:/Users/yanaf/IdeaProjects/yanot.guru-test-jen09/build/reports/tests/1643668330758.0.png\r\nPage source: file:/C:/Users/yanaf/IdeaProjects/yanot.guru-test-jen09/build/reports/tests/1643668330758.0.html\r\nTimeout: 4 s.\r\nCaused by: UnsupportedCommandException: unknown command: unknown command: session/a7a6a057f103ec67fc348bee19bd987b/se/file",
+      "time" : {
+        "start" : 1643668290898,
+        "stop" : 1643668336155,
+        "duration" : 45257
+      }
+    } ]
+  },
+  "bf06dc3c1db8a880f982467bbd3ea132" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "416eb7c7b18cea42",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643669582407,
+        "stop" : 1643669617694,
+        "duration" : 35287
+      }
+    } ]
+  },
+  "19e73a294e786dfd866fe1ceed673e4c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "93f7f8e600f3930e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643742126613,
+        "stop" : 1643742126639,
+        "duration" : 26
+      }
+    } ]
+  }
+}

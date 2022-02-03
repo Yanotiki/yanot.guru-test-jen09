@@ -34,6 +34,8 @@ dependencies {
     testAnnotationProcessor 'org.projectlombok:lombok:1.18.22'
 }
 
-test {
-    useJUnitPlatform()
+task properties_tests(type: Test) {
+    useJUnitPlatform{
+        includeTags "properties"
+    }
 }

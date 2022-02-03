@@ -1,0 +1,72 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "yanot.guru.tests",
+    "children" : [ {
+      "name" : "HomeWorkYanotWithFaker",
+      "children" : [ {
+        "name" : "fillFormTest",
+        "uid" : "4ca5b53ce45faddf",
+        "parentUid" : "65d29a9883b86f65701ceea6c10b2585",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643668290898,
+          "stop" : 1643668336155,
+          "duration" : 45257
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "65d29a9883b86f65701ceea6c10b2585"
+    }, {
+      "name" : "AutomationPracticeTests",
+      "children" : [ {
+        "name" : "automationPracticeTest",
+        "uid" : "416eb7c7b18cea42",
+        "parentUid" : "e54c98af2b7554147fa35c64b4c8dda0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643669582407,
+          "stop" : 1643669617694,
+          "duration" : 35287
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e54c98af2b7554147fa35c64b4c8dda0"
+    }, {
+      "name" : "properties.SystemPropertiesTests",
+      "children" : [ {
+        "name" : "someTest1",
+        "uid" : "93f7f8e600f3930e",
+        "parentUid" : "7bc2e1892318f11dc562743d9a2e0e95",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643742126613,
+          "stop" : 1643742126639,
+          "duration" : 26
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "properties.SystemPropertiesTests"
+    } ],
+    "uid" : "yanot.guru.tests"
+  } ]
+}

@@ -1,0 +1,37 @@
+{
+  "total" : 3,
+  "items" : [ {
+    "uid" : "aca26b291ef4b57189a2ee028ac07dea",
+    "name" : "yanot.guru.tests.HomeWorkYanotWithFaker",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "60917d1b2d359b856eba1714d347aabc",
+    "name" : "yanot.guru.tests.AutomationPracticeTests",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "c233987930d2ef25d424b1a8c36aad9d",
+    "name" : "yanot.guru.tests.properties.SystemPropertiesTests",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}

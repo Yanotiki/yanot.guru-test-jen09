@@ -1,0 +1,64 @@
+{
+  "uid" : "93f7f8e600f3930e",
+  "name" : "someTest1()",
+  "fullName" : "yanot.guru.tests.properties.SystemPropertiesTests.someTest1",
+  "historyId" : "19e73a294e786dfd866fe1ceed673e4c",
+  "time" : {
+    "start" : 1643742126613,
+    "stop" : 1643742126639,
+    "duration" : 26
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:yanot.guru.tests.properties.SystemPropertiesTests]/[method:someTest1()]"
+  }, {
+    "name" : "host",
+    "value" : "YANOTIK"
+  }, {
+    "name" : "thread",
+    "value" : "18088@YANOTIK.Test worker(15)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "yanot.guru.tests.properties.SystemPropertiesTests"
+  }, {
+    "name" : "testClass",
+    "value" : "yanot.guru.tests.properties.SystemPropertiesTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "someTest1"
+  }, {
+    "name" : "suite",
+    "value" : "yanot.guru.tests.properties.SystemPropertiesTests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "93f7f8e600f3930e.json",
+  "parameterValues" : [ ]
+}

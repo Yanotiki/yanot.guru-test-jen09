@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue Feb 01 22:02:06 MSK 2022","Tue Feb 01 22:02:06 MSK 2022","26","","yanot.guru.tests.properties.SystemPropertiesTests","","yanot.guru.tests.properties.SystemPropertiesTests","someTest1","someTest1()",""
+"passed","Tue Feb 01 01:53:02 MSK 2022","Tue Feb 01 01:53:37 MSK 2022","35287","","yanot.guru.tests.AutomationPracticeTests","","yanot.guru.tests.AutomationPracticeTests","automationPracticeTest","automationPracticeTest()",""
+"failed","Tue Feb 01 01:31:30 MSK 2022","Tue Feb 01 01:32:16 MSK 2022","45257","","yanot.guru.tests.HomeWorkYanotWithFaker","","yanot.guru.tests.HomeWorkYanotWithFaker","fillFormTest","fillFormTest()",""

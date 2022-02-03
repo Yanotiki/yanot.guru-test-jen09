@@ -1,0 +1,31 @@
+[ {
+  "uid" : "93f7f8e600f3930e",
+  "name" : "someTest1()",
+  "time" : {
+    "start" : 1643742126613,
+    "stop" : 1643742126639,
+    "duration" : 26
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "416eb7c7b18cea42",
+  "name" : "automationPracticeTest()",
+  "time" : {
+    "start" : 1643669582407,
+    "stop" : 1643669617694,
+    "duration" : 35287
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4ca5b53ce45faddf",
+  "name" : "fillFormTest()",
+  "time" : {
+    "start" : 1643668290898,
+    "stop" : 1643668336155,
+    "duration" : 45257
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]
